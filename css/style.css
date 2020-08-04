@@ -26,6 +26,18 @@
   margin-bottom: 50px;
 }
 
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
 .headerStrip {
   height: 20px;
   background-color: #60b3ed;
@@ -526,6 +538,255 @@ button:focus {
   display: none;
 }
 
+.step1 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #1C93E6;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.step1 .hrProgress {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.step1 .iconArea {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  border: 2px solid #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.step1 .iconArea img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.step1 .iconArea h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #f60a7c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.step1 .iconArea p {
+  font-size: 14px;
+  text-align: center;
+  color: #1F2A55;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.step1 .iconArea:hover {
+  border: 2px solid #1C93E6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.step2 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #1C93E6;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.step2 .hrProgress {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.step2 .iconArea {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  border: 2px solid #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.step2 .iconArea img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.step2 .iconArea h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #f60a7c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.step2 .iconArea:hover {
+  border: 2px solid #1C93E6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.step2 .memberDetails .detailsHead {
+  font-size: 18px;
+  text-align: left;
+  color: #576370;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.step2 .memberDetails .secPara {
+  font-size: 12px;
+  text-align: left;
+  color: #0B2338;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.step2 .memberDetails .secPara sup {
+  color: #f60a7c;
+  font-size: 14px;
+}
+
+.step2 .memberDetails .memberCount {
+  font-size: 15px;
+  text-align: left;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.step2 .memberDetails label {
+  color: #0B2338;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.step2 .memberDetails label sup {
+  color: #f60a7c;
+  font-size: 14px;
+}
+
+.step2 .memberDetails input[type='radio'] {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.step2 .memberDetails .addNewMember {
+  margin-top: 30px;
+  color: #f60a7c;
+}
+
+.step2 .memberDetails .addNewMember .fas {
+  color: #f60a7c;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.step2 .memberDetails .addNewMember strong {
+  font-size: 14px;
+}
+
+.step2 .memberDetails .cancelBtn {
+  border: 1px solid #233774;
+  background-color: transparent;
+  color: #233774;
+  width: 150px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.step2 .memberDetails .ContinueBtn {
+  border: 1px solid #233774;
+  background-color: #233774;
+  color: #fff;
+  width: 150px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.step3 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #1C93E6;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.step3 .hrProgress {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.memberDetails .detailsHead {
+  font-size: 18px;
+  text-align: left;
+  color: #576370;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.memberDetails .memberCount {
+  font-size: 15px;
+  text-align: left;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.memberDetails label {
+  color: #0B2338;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.memberDetails label sup {
+  color: #f60a7c;
+  font-size: 14px;
+}
+
+.memberDetails p {
+  color: #0B2338;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.memberDetails .getMyQuotes {
+  border: 1px solid #233774;
+  background-color: #233774;
+  color: #fff;
+  width: 150px;
+  font-size: 12px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .bannerBg {
     background-image: url("/img/Image 16Small.png");
@@ -887,6 +1148,15 @@ button:focus {
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .step1 .iconArea {
+    margin-bottom: 20px;
+  }
+  .step2 .iconArea {
+    margin-bottom: 20px;
+  }
+  .step2 label {
+    margin-top: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

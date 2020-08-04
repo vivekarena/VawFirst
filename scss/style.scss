@@ -26,6 +26,18 @@
 {
     margin-bottom: 50px;
 }
+.pb-50
+{
+    padding-bottom: 50px;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Poppins', sans-serif;
+}
 .headerStrip
 {
     height:20px;
@@ -591,6 +603,279 @@ $pinkColor:#f60a7c;
     display: none;
 }
 
+// Pop Up
+.step1
+{
+    h2
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color:$blueColor;
+        margin-top:50px;
+        margin-bottom:10px;
+    }
+    .hrProgress
+    {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .iconArea
+    {
+        width:100%;
+        height:auto;
+        background-color:#fff;
+        border-radius: 10px;
+        padding-bottom:20px;
+        border:2px solid #fff;
+        transition: 0.5s;
+        img
+        {
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding-top:50px;
+        }
+        h4
+        {
+           
+            font-size: 20px;
+            text-align: center;
+            color:$pinkColor;
+            margin-top:20px;
+            margin-bottom:10px;
+        }
+        p
+        {
+            
+            font-size: 14px;
+            text-align: center;
+            color:#1F2A55;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        
+        &:hover
+        {
+            border:2px solid #1C93E6;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+.step2
+{
+    h2
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color:$blueColor;
+        margin-top:50px;
+        margin-bottom:10px;
+    }
+    .hrProgress
+    {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .iconArea
+    {
+        width:100%;
+        height:auto;
+        background-color:#fff;
+        border-radius: 10px;
+        padding-bottom:20px;
+        border:2px solid #fff;
+        transition: 0.5s;
+        img
+        {
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding-top:50px;
+        }
+        h4
+        {
+           
+            font-size: 20px;
+            text-align: center;
+            color:$pinkColor;
+            margin-top:20px;
+            margin-bottom:10px;
+        }
+        
+        &:hover
+        {
+            border:2px solid #1C93E6;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+    .memberDetails
+    {
+        
+        .detailsHead
+        {
+            font-size: 18px;
+            text-align: left;
+            color:#576370;
+            margin-top:70px;
+            margin-bottom:10px;
+            font-weight: 600;
+        }   
+        .secPara
+        {
+            font-size: 12px;
+            text-align: left;
+            color:#0B2338;
+            margin-top:20px;
+            margin-bottom:0px;
+            sup
+            {
+                color:$pinkColor;
+                font-size:14px;
+            }
+        }
+        .memberCount
+        {
+            font-size: 15px;
+            text-align: left;
+            color:#000000;
+            margin-top:30px;
+            margin-bottom:10px;
+            font-weight: 600;
+        }
+        label
+        {
+            color:#0B2338;
+            font-size:12px;
+            font-weight: bold;
+            sup
+            {
+                color:$pinkColor;
+                font-size:14px;
+            }
+        }
+        input[type='radio']
+        {
+            margin-right:10px;
+            margin-top:15px;
+        }
+        .addNewMember
+        {
+            margin-top:30px;    
+            color:$pinkColor;
+            .fas
+            {
+                color:$pinkColor;
+                font-size: 30px;
+                margin-right:10px;
+            }
+            strong
+            {
+                font-size: 14px;
+            }
+        }
+        .cancelBtn
+        {
+            border:1px solid #233774;
+            background-color: transparent;
+            color:#233774;
+            width:150px;
+            font-size: 12px;
+            margin-right:10px;
+        }
+        .ContinueBtn
+        {
+            border:1px solid #233774;
+            background-color: #233774;
+            color:#fff;
+            width:150px;
+            font-size: 12px;
+            margin-left:10px;
+        }
+    }
+    
+
+}
+
+.step3
+{
+    h2
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color:$blueColor;
+        margin-top:50px;
+        margin-bottom:10px;
+    }
+    .hrProgress
+    {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    }
+    .memberDetails
+    {
+        .detailsHead
+        {
+            font-size: 18px;
+            text-align: left;
+            color:#576370;
+            margin-top:30px;
+            margin-bottom:30px;
+            font-weight: 600;
+        }   
+        .memberCount
+        {
+            font-size: 15px;
+            text-align: left;
+            color:#000000;
+            margin-top:30px;
+            margin-bottom:10px;
+            font-weight: 600;
+        }
+        label
+        {
+            color:#0B2338;
+            font-size:12px;
+            font-weight: bold;
+            margin-top:7px;
+            sup
+            {
+                color:$pinkColor;
+                font-size:14px;
+            }
+        }
+        p
+        {
+            color:#0B2338;
+            font-size: 10px;
+            margin-top:10px;
+        }
+        .getMyQuotes
+        {
+            border:1px solid #233774;
+            background-color: #233774;
+            color:#fff;
+            width:150px;
+            font-size: 12px;
+           
+            display:block;
+            margin:auto;
+            margin-top:30px;
+        }
+}
+
 
 @media screen and (max-width:768px)
 {
@@ -1040,5 +1325,27 @@ $pinkColor:#f60a7c;
         margin-bottom:10px;
     }
 }
+// Pop UP
+.step1
+{
+    .iconArea
+    {
+        margin-bottom:20px;
+    }
+}
+.step2
+{
+    .iconArea
+    {
+        margin-bottom:20px;
+    }
+    label
+    {
+        margin-top:15px;
+    }
+}
+
+
+
 // Media Close
 }
